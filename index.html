@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Splitter</h1>
+  <div class="calculator">
+    <section class="calculator-buttons-section">
+      <form>
+        <label>Bill</label>
+        <input type="number" id="value-to-calculate" value="0">
+      </form>
+      <div class="calculator-buttons">
+        <button class="percent-button">5$</button>
+        <button class="percent-button">10%</button>
+        <button class="percent-button">15%</button>
+        <button class="percent-button">25%</button>
+        <button class="percent-button">50%</button>
+        <button class="custom-percent-button">Custom</button>
+      </div>
+      <form>
+        <label>Number of People</label>
+        <input type="number" value="0" id="number-of-people">
+      </form>
+      <section class="calculator-result">
+        <div class="calculator-text">
+
+          <div class="tip-amount-person">
+            <div class="amount-text">
+              <h4 class="result-title">Tip Amount</h4>
+              <span class="person-title">/ person</span>
+            </div>
+            <div class="amount-result">
+              <span id="amount-person-result" class="value-text">$0.00</span>
+            </div>
+          </div>
+          <div class="total-amount">
+            <div class="total-text">
+              <h4 class="result-title">Total</h4>
+              <span class="person-title">/ person</span>
+            </div>
+            <div class="total-result">
+              <span class="value-text" id="total-person-result">$0.00</span>
+            </div>
+          </div>
+        </div>
+        <button>Reset</button>
+      </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

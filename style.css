@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white:hsl(0, 0%, 100%);
+    --very-dark-cyan:hsl(183, 100%, 15%);
+    --grayish-cyan:hsl(184, 14%, 56%);
+    --light-grayish-cyan:hsl(185, 41%, 84%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --very-light-grayish-cyan: hsl(189, 41%, 97%);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
